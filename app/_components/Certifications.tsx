@@ -171,7 +171,6 @@ const CertificateItem = ({
         hover:border-primary
       "
     >
-      {/* Index */}
       <span
         className="
           absolute -left-4 md:-left-8 top-8
