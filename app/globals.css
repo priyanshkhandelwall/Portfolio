@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* ---------- Background ---------- */
+    --background: 0 0% 2%;            /* Deep Black (#050505) */
+    --background-light: 0 0% 6%;
+    --foreground: 45 20% 96%;         /* Off-white with a hint of gold warmth */
+
+    /* ---------- Surfaces ---------- */
+    --card: 0 0% 5%;                  /* Very dark grey/black */
+    --card-foreground: 45 20% 96%;
+    --popover: 0 0% 5%;
+    --popover-foreground: 45 20% 96%;
+
+    /* ---------- Primary (Luxury Gold) ---------- */
+    --primary: 43 70% 50%;            /* Classic Gold (#C5A021) */
+    --primary-foreground: 0 0% 0%;    /* Black text on gold */
+
+    /* ---------- Secondary (Champagne/Bronze) ---------- */
+    --secondary: 35 30% 20%;          /* Muted Bronze for subtle depth */
+    --secondary-foreground: 43 70% 50%;
+
+    /* ---------- Neutrals ---------- */
+    --muted: 0 0% 10%;                /* Darker muted background */
+    --muted-foreground: 45 10% 60%;   /* Sand-tinted grey */
+
+    /* ---------- Accent (Bright Gold) ---------- */
+    --accent: 43 70% 20%;             /* Dark gold tint for hover states */
+    --accent-foreground: 43 70% 65%;
+
+    --destructive: 0 60% 40%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 15%;               /* Subtle borders to maintain dark look */
+    --input: 0 0% 12%;
+    --ring: 43 70% 50%;               /* Gold focus ring */
+
+    /* ---------- Charts ---------- */
+    --chart-1: 43 70% 50%;   /* Gold */
+    --chart-2: 35 40% 70%;   /* Champagne */
+    --chart-3: 40 20% 40%;   /* Bronze */
+    --chart-4: 45 15% 90%;   /* Ivory */
+    --chart-5: 0 0% 30%;     /* Steel */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-roboto-flex antialiased;
+  }
+}
+
+@layer components {
+  .grid {
+    @apply gap-[25px];
+  }
+
+  .markdown-text ul {
+    @apply pl-5 mt-2 list-disc;
+  }
+}
