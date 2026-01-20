@@ -84,8 +84,6 @@ The application will be available at http://localhost:3000.
 
 📬 Contact
 
-Email: priyansh3k123@gmail.com
-
 LinkedIn: https://www.linkedin.com/in/piyanshkhandelwal/
 <Priyansh Khandelwal>
 
