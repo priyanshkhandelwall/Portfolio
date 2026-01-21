@@ -4,7 +4,7 @@ This repository contains the source code for my personal portfolio website.
 
 The website highlights my background as a data analyst, my technical skill set, professional experience, and selected data analytics projects, with a focus on real-world impact and clear, decision-driven insights.
 
-🌐 **Live Website:** https://<your-github-username>.github.io/<repo-name>  
+🌐 **Live Website:** https://priyanshkhandelwal.dev
 📄 **Resume:** Available directly on the website
 
 ---
