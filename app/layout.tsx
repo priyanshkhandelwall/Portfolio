@@ -22,7 +22,7 @@ const siteTitle =
   'Priyansh Khandelwal | Data Analyst & Computer Science Graduate';
 const siteDescription =
   'Portfolio of Priyansh Khandelwal, specializing in Python, SQL, and Power BI.';
-const siteUrl = 'https://priyanshkhandelwal.com';
+const siteUrl = 'https://priyanshkhandelwal.dev';
 
 export const metadata: Metadata = {
   title: siteTitle,
