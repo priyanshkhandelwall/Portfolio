@@ -74,10 +74,10 @@ Each project focuses on clear problem definition, analytical approach, and outco
 
 To run the portfolio locally:
 
-bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-The site will be available at http://localhost:3000.
+- bash
+- git clone https://github.com/<your-username>/<repo-name>.git
+- cd <repo-name>
+- The site will be available at http://localhost:3000.
 
 ---
 
